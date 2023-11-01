@@ -5,7 +5,7 @@ from matplotlib.pyplot import show
 from scipy.integrate import odeint
 
 y0 = [3000, 186988800] # [moose, ticks]
-t= np.linspace(0, 60)
+t = np.linspace(0, 12)
 
 #params
 mooseR = .1
@@ -16,7 +16,11 @@ mooseK = 10000
 tickK = 9349440000
 
 
+
+
 params = [mooseR, tickR, mooseA, tickA, mooseK, tickK]
+
+
 
 def simulation(variables, t, parameters):
     
@@ -40,10 +44,6 @@ def simulation(variables, t, parameters):
     k1 = parameters[4]
     k2 = parameters[5]
 
-    
-        
-
-    print(r2)
     #differential equations for each species
     dx1dt = r1 * x1 * (1 - (x1 + a1 * x2)/k1) #moose
     dx2dt = r2 * x2 * (1 - (x2 + a2 * x2)/k2) #ticks
@@ -52,6 +52,8 @@ def simulation(variables, t, parameters):
 
 
 y = odeint(simulation, y0, t, args=(params,))
+
+print(y)
 
 f,(ax1, ax2) = subplots(2)
 line1, = ax1.plot(t, y[:,0], color="b")
