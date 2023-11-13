@@ -5,7 +5,7 @@ from matplotlib.pyplot import show
 from scipy.integrate import odeint
 
 y0 = [3000, 186988800] # [moose, ticks]
-t = np.linspace(0, 12)
+t = np.linspace(0, 120)
 
 #params
 mooseR = .1
