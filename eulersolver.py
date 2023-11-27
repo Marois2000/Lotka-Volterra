@@ -39,7 +39,7 @@ def system_of_odes(t, y, month, longWinter):
 
 
 # Define the time interval and step size
-years = 10
+years = 2016-1994
 t0 = 0
 h = 0.01  # Step size
 t_final = 3.65 * years
@@ -58,7 +58,7 @@ y_values = [y0]
 t = t0
 y = y0
 while t < t_final:
-    k1 = np.array(system_of_odes(t, y, monthCount, True))
+    k1 = np.array(system_of_odes(t, y, monthCount, False))
     y_next = y + h * k1  # Euler's method update
     t += h
     dayCount += 1
@@ -82,7 +82,7 @@ f, (ax1, ax2) = subplots(2)
 (line1,) = ax1.plot(t_values, y1_values, color="b")
 (line2,) = ax2.plot(t_values, y2_values, color="r")
 
-ax1.set_title("The Next 100 years\nLong Winters")
+ax1.set_title("The Next 30 years\nShort Winters")
 ax1.set_ylabel("Moose Population")
 ax2.set_ylabel("Tick Population")
 ax2.set_xlabel("Months")
