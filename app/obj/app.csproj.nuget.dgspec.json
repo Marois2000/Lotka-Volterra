@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maroi\\Dropbox\\PC\\Desktop\\Lotka-Volterra\\app\\app.csproj": {}
+    "C:\\Users\\Tyler\\OneDrive\\Desktop\\Coding\\MathModeling\\Lotka-Volterra\\app\\app.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maroi\\Dropbox\\PC\\Desktop\\Lotka-Volterra\\app\\app.csproj": {
+    "C:\\Users\\Tyler\\OneDrive\\Desktop\\Coding\\MathModeling\\Lotka-Volterra\\app\\app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maroi\\Dropbox\\PC\\Desktop\\Lotka-Volterra\\app\\app.csproj",
+        "projectUniqueName": "C:\\Users\\Tyler\\OneDrive\\Desktop\\Coding\\MathModeling\\Lotka-Volterra\\app\\app.csproj",
         "projectName": "app",
-        "projectPath": "C:\\Users\\maroi\\Dropbox\\PC\\Desktop\\Lotka-Volterra\\app\\app.csproj",
-        "packagesPath": "C:\\Users\\maroi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maroi\\Dropbox\\PC\\Desktop\\Lotka-Volterra\\app\\obj\\",
+        "projectPath": "C:\\Users\\Tyler\\OneDrive\\Desktop\\Coding\\MathModeling\\Lotka-Volterra\\app\\app.csproj",
+        "packagesPath": "C:\\Users\\Tyler\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tyler\\OneDrive\\Desktop\\Coding\\MathModeling\\Lotka-Volterra\\app\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\maroi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Tyler\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
