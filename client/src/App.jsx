@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Hero } from './sections/hero'
 import { Introduction } from './sections/introduction'
+import { ModelDesc } from './sections/modeldesc'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <div className='w-full flex justify-center bg-neutral-300 flex-col'>
       <Hero />
       <Introduction />
+      <ModelDesc />
     </div>
   )
 }
