@@ -6,7 +6,7 @@ import { ModelDesc } from './sections/modeldesc'
 function App() {
 
   return (
-    <div className='w-full flex justify-center bg-neutral-300 flex-col'>
+    <div className='w-full flex justify-center bg-neutral-300 flex-col overflow-hidden'>
       <Hero />
       <Introduction />
       <ModelDesc />
