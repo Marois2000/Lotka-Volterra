@@ -26,6 +26,9 @@ export default {
       },
       fontFamily: {
         montserrat: ["Montserrat Alternates"]
+      },
+      backgroundImage : {
+        hero: "url(./img/Hero.png)"
       }
     },
   },
