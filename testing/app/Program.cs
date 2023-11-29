@@ -16,39 +16,26 @@ class Program
     double tickK = 9349440000;
 
     // Define the system of ODEs as a function
-    List<double> SystemOfODEs(List<double> y, int month, bool longWinter)
-    {
+    List<double> SystemOfODEs(List<double> y, int month, bool longWinter){
         double dy1dt, dy2dt;
 
-        if (month % 12 == 11 || month % 12 == 0)
-        {
-            dy1dt = y[0] * (1 - (y[0] + mooseA * y[1]) / mooseK); // Example ODE 1
-        }
-        else
-        {
-            dy1dt = mooseR * y[0] * (1 - (y[0] + mooseA * y[1]) / mooseK); // Example ODE 1
+        if (month % 12 == 11 || month % 12 == 0){
+            dy1dt = mooseR * y[0] * (1 - (y[0] + mooseA * y[1]) / mooseK); // Moose Equation with repopulation
+        } else {
+            dy1dt = y[0] * (1 - (y[0] + mooseA * y[1]) / mooseK); // Moose Equation with no repopulation
         }
 
-        if (longWinter)
-        {
-            if (month % 12 == 10 || month % 12 == 11 || month % 12 == 0 || month % 12 == 9)
-            {
-                dy2dt = -tickR * 2 * y[1] * (1 - (y[1] + tickA * y[0]) / tickK);  // Example ODE 2
+        if (longWinter) {
+            if (month % 12 == 10 || month % 12 == 11 || month % 12 == 0 || month % 12 == 9) {
+                dy2dt = -tickR * 2 * y[1] * (1 - (y[1] + tickA * y[0]) / tickK);  // Tick Equation with long winter death rate
+            } else {
+                dy2dt = tickR * y[1] * (1 - (y[1] + tickA * y[0]) / tickK); // Normal Tick Equation
             }
-            else
-            {
-                dy2dt = tickR * y[1] * (1 - (y[1] + tickA * y[0]) / tickK); // Example ODE 2
-            }
-        }
-        else
-        {
-            if (month % 12 == 10 || month % 12 == 11 || month % 12 == 0)
-            {
-                dy2dt = -tickR * 2.89 * y[1] * (1 - (y[1] + tickA * y[0]) / tickK);  // Example ODE 2
-            }
-            else
-            {
-                dy2dt = tickR * y[1] * (1 - (y[1] + tickA * y[0]) / tickK); // Example ODE 2
+        } else {
+            if (month % 12 == 10 || month % 12 == 11 || month % 12 == 0) {
+                dy2dt = -tickR * 2.89 * y[1] * (1 - (y[1] + tickA * y[0]) / tickK);  // Tick Equation with short winter death rate
+            } else {
+                dy2dt = tickR * y[1] * (1 - (y[1] + tickA * y[0]) / tickK); // Normal Tick Equation
             }
         }
 

@@ -16,6 +16,7 @@ export const Hero = () => {
                     <div className="bg-neutral-300 m-5 gap-2 flex flex-col">
                         <h2 className="text-green-300 font-montserrat font-semibold text-xl max-w-[40ch] mx-2">This is a Mathematical simulation of moose populations in relation to winter tick populations.</h2>
                         <h2 className="text-green-300 font-montserrat text-lg max-w-[35ch] mx-2">It was created using a modified version of the Lotka-Volterra competetion model.</h2>
+                        <h2 className="text-green-300 font-montserrat text-lg max-w-[35ch] mx-2">This model represents moose populations in New Hampshire</h2>
                         <h2 className="text-green-300 font-montserrat text-lg max-w-[35ch] mx-2">A 3D simulation of the model was built in Unity and Can be downloaded here.</h2>
                         
                         <div className="w-fit m-2">
