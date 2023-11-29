@@ -8,7 +8,7 @@ import mydata from "../../img/1994-2016.png";
 
 export const DataFit = () => {
     return(
-        <div className="w-full flex flex-col justify-center items-center bg-neutral-200" title="datafit">
+        <div className="w-full flex flex-col justify-center items-center bg-neutral-200 pb-20" title="datafit">
             <h2 className="text-5xl text-brown-300 font-montserrat font-semibold text-center m-20">Data Fitting</h2>
             <div className="w-[90%] flex justify-center items-start gap-20">
                 <div className="flex flex-col justify-center">
@@ -79,7 +79,7 @@ export const DataFit = () => {
                                 </td>
                             </tr>
 
-                            <tr class="border-b bg-brown-100">
+                            <tr class=" bg-brown-100">
                                 <th scope="row" class="px-6 py-4 font-medium text-white whitespace-nowrap">
                                     Carrying Capacity (K)
                                 </th>

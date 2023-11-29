@@ -3,6 +3,8 @@ import { Hero } from './sections/hero'
 import { Introduction } from './sections/introduction'
 import { ModelDesc } from './sections/modeldesc'
 import { DataFit } from './sections/datafit'
+import { Results } from './sections/results'
+import { Conclusion } from './sections/conclusion'
 
 function App() {
 
@@ -12,6 +14,8 @@ function App() {
       <Introduction />
       <ModelDesc />
       <DataFit />
+      <Results />
+      <Conclusion />
     </div>
   )
 }
