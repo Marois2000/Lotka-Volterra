@@ -5,6 +5,8 @@ import { ModelDesc } from './sections/modeldesc'
 import { DataFit } from './sections/datafit'
 import { Results } from './sections/results'
 import { Conclusion } from './sections/conclusion'
+import { Simulation } from './sections/simulation'
+import { References } from './sections/references'
 
 function App() {
 
@@ -16,6 +18,8 @@ function App() {
       <DataFit />
       <Results />
       <Conclusion />
+      <Simulation />
+      <References />
     </div>
   )
 }
