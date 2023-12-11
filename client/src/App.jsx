@@ -7,11 +7,13 @@ import { Results } from './sections/results'
 import { Conclusion } from './sections/conclusion'
 import { Simulation } from './sections/simulation'
 import { References } from './sections/references'
+import { Navbar } from './components/navbar'
 
 function App() {
 
   return (
     <div className='w-full flex justify-center items-center bg-neutral-300 flex-col overflow-hidden'>
+      <Navbar />
       <Hero />
       <Introduction />
       <ModelDesc />

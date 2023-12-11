@@ -3,7 +3,7 @@ import { ParagraphHeader } from "../components/paragraphheader";
 
 export const Simulation = () => {
     return (
-        <div className="w-full flex flex-col justify-center items-center pb-10" title="simulation">
+        <div className="w-full flex flex-col justify-center items-center pb-10" id="simulation">
             <h2 className="text-5xl text-brown-300 font-montserrat font-semibold text-center my-10">Simulation</h2>
 
             <div className="flex justify-center items-center w-full gap-20">

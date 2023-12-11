@@ -6,12 +6,13 @@ import { ParagraphHeader } from "../components/paragraphheader";
 import competitionDesc from "../../img/comp_definition.png";
 import equation from "../../img/Equation.jpeg";
 import code from "../../img/Code.png";
+import thought from "../../img/Critical-Thinking.png";
 
 export const ModelDesc = () => {
     return (
         <>
             <h1 className="text-5xl text-brown-300 font-montserrat font-semibold text-center m-20">Model Description</h1>
-            <div className="flex justify-center items-start flex-col gap-20 w-[70%] mb-20" title="modeldescription">
+            <div className="flex justify-center items-start flex-col gap-20 w-[70%] mb-20" id="modeldescription">
 
                 <div className="flex justify-between items-center w-full mx-5">
                     <div className="flex justify-between items-start flex-col ">
@@ -49,6 +50,19 @@ export const ModelDesc = () => {
                         </p>
                     </div>
                     <img className="w-[500px] rounded-md border-2 border-brown-300" src={code} alt="Description of Species Competition" />
+                </div>
+
+                <div className="flex justify-between items-center w-full mx-5">
+                    <img className="w-[350px] rounded-md border-2 border-brown-300" src={thought} alt="Description of Species Competition" />
+
+                    <div className="flex justify-between items-end flex-col ">
+                        <ParagraphHeader text="Why This Model?" />
+                        <p className="w-[35ch] text-green-300 font-montserrat mt-3 text-right">
+                            The competition model can be used for species that compete for a specific resource. <br /><br />
+                            But it can also be adapted to understand how species affect eachother spatially. <br /><br />
+                            This is our use case for our adaptation of this model.
+                        </p>
+                    </div>
                 </div>
             </div>
         </>

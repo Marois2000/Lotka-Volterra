@@ -8,7 +8,7 @@ export const Introduction = () => {
     return (
         <div className="w-full bg-neutral-200">
             <h1 className="text-5xl text-brown-300 font-montserrat font-semibold text-center mt-20 mb-10">Introduction</h1>
-                <div className="flex justify-around items-start w-full mb-10" title="introduction">
+                <div className="flex justify-around items-start w-full mb-10" id="introduction">
 
                     <div className="flex justify-center items-center flex-col w-[33%] ">
                         <ParagraphHeader text="What Does this Answer?"/>

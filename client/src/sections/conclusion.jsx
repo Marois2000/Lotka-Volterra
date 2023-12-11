@@ -5,7 +5,7 @@ import React from "react";
 
 export const Conclusion = () => {
     return (
-        <div className="w-full flex flex-col justify-center items-center bg-neutral-200 pb-10" title="conclusion">
+        <div className="w-full flex flex-col justify-center items-center bg-neutral-200 pb-10" id="conclusion">
             <h2 className="text-5xl text-brown-300 font-montserrat font-semibold text-center mt-10">Conclusion</h2>
             <p className="w-[60ch] text-green-300 font-montserrat mt-10 text-justify text-lg">
                 From our findings we see that the moose population will die off in 30 years given our current trajectory. It is important 

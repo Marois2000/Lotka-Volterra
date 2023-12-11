@@ -6,8 +6,8 @@ import hero from "../../img/Hero.png"
 
 export const Hero = () => {
     return (
-        <div className="w-full h-[100vh] flex justify-around bg-center bg-cover flex-col" title="hero" >
-            <div className="w-fit">
+        <div className="w-full h-[100vh] flex justify-around bg-center bg-cover flex-col" id="hero" >
+            <div className="w-fit mt-20">
                 <h1 className="text-7xl text-brown-300 font-semibold font-montserrat bg-neutral-300 m-5">Moose Population Simulation</h1>
             </div>
 

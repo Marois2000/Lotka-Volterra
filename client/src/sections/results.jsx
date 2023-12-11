@@ -8,7 +8,7 @@ import longWinters from "../../img/Next30_longWinters.png"
 
 export const Results = () => {
     return (
-        <div className="w-full flex flex-col justify-center items-center pb-10" title="results">
+        <div className="w-full flex flex-col justify-center items-center pb-10" id="results">
             <h2 className="text-5xl text-brown-300 font-montserrat font-semibold text-center mt-20">Results</h2>
             <p className="w-[60ch] text-green-300 font-montserrat mt-10 text-justify text-lg">
                 After I finished fitting my model to the real world data, I wanted to start answering the questions I started with.
