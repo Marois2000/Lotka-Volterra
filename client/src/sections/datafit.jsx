@@ -20,7 +20,7 @@ export const DataFit = () => {
                     <img className="w-[400px] rounded-md border-2 border-brown-300" src={mydata} alt="Real world data showing moose population decline" />
                 </div>
             </div>
-            <p className="w-[60ch] text-green-300 font-montserrat mt-10 text-justify text-lg">
+            <p className="w-[60ch] text-black font-montserrat mt-10 text-justify text-lg">
                 As we can see in the real world data, the moose population went from approximately 7500 to about 3500. Now, the real world data
                 doesn't have such an exact regression as my data, this is do to many other factors that my model is not looking at. I fit my data
                 based off of the starting moose population and the ending population. I started with paramters that made sense to me, then I modified
@@ -30,7 +30,7 @@ export const DataFit = () => {
             <div className="w-[90%] flex justify-center items-start gap-20 mt-20">
                 <div className="flex flex-col justify-center gap-5">
                     <ParagraphHeader text="Parameter Explanation"/>
-                    <p className="w-[50ch] text-green-300 font-montserrat text-left">
+                    <p className="w-[50ch] text-black font-montserrat text-left">
                         At a close glance these numbers seem completely random, and in a sense they are, but these values accurately recreated the real world data. <br /><br />
                         The ticks have a higher growth rate than the moose becuase ticks reproduce much faster. <br /><br />
                         The alpha values seem very small for moose, but this is explained by the vast disproportion between the moose and tick populations. <br /><br />
@@ -41,7 +41,7 @@ export const DataFit = () => {
                 <div className="flex flex-col justify-center gap-5">
                     <ParagraphHeader text="Parameter Values"/>
                     <table class="w-full text-sm text-left rtl:text-right text-neutral-300 font-montserrat rounded-md overflow-hidden">
-                        <thead class="text-xs text-neutral-300 uppercase bg-green-300">
+                        <thead class="text-xs text-white uppercase bg-green-300">
                             <tr>
                                 <th scope="col" class="px-6 py-3">
                                     

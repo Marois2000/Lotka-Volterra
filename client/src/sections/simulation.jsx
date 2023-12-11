@@ -9,11 +9,11 @@ export const Simulation = () => {
             <div className="flex justify-center items-center w-full gap-20">
                     <div className="flex justify-between items-start flex-col ">
                         <ParagraphHeader text="Live Simulation" />
-                        <p className="w-[35ch] text-green-300 font-montserrat mt-3">
+                        <p className="w-[35ch] text-black font-montserrat mt-3">
                             If you would like to try out the simulation for yourself on your own PC simply download the program and run the app in the file.
                         </p>
                     </div>
-                    <button className="bg-green-200 border-2 border-green-300 text-lg text-neutral-300 rounded-md px-2 py-1 hover:bg-green-100 z-10 duration-300">Download</button>
+                    <button className="bg-green-200 border-2 border-green-300 text-lg text-white rounded-md px-2 py-1 hover:bg-green-100 z-10 duration-300">Download</button>
                 </div>
         </div>
     )
