@@ -33,7 +33,7 @@ export const Simulation = () => {
 
                 <div className="flex justify-center items-center gap-5 flex-col">
 
-                    <video width="400" controls autoPlay className="border-2 border-brown-200 rounded-md">
+                    <video width="600" controls autoPlay muted className="border-2 border-brown-200 rounded-md">
                         <source src={video} type="video/mp4"  />
                         Your browser does not support the video tag.
                     </video>
@@ -55,7 +55,7 @@ export const Simulation = () => {
                 <p className="w-full text-black font-montserrat m-3 text-center">
                     To try out the simulation head over to your nearest computer and download it there!
                 </p>
-                <video width="400" controls autoPlay className="border-2 border-brown-200 rounded-md">
+                <video width="600" controls autoPlay muted className="border-2 border-brown-200 rounded-md">
                     <source src={video} type="video/mp4"  />
                     Your browser does not support the video tag.
                 </video>

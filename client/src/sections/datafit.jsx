@@ -40,53 +40,53 @@ export const DataFit = () => {
 
                 <div className="flex flex-col justify-center gap-5 items-center w-full ">
                     <ParagraphHeader text="Parameter Values"/>
-                    <table class="w-full text-sm text-left rtl:text-right text-neutral-300 font-montserrat rounded-md overflow-hidden max-md:w-[50%]">
-                        <thead class="text-xs text-white uppercase bg-green-300">
+                    <table className="w-full text-sm text-left rtl:text-right text-neutral-300 font-montserrat rounded-md overflow-hidden max-md:w-[50%]">
+                        <thead className="text-xs text-white uppercase bg-green-300">
                             <tr>
-                                <th scope="col" class="px-6 py-3">
+                                <th scope="col" className="px-6 py-3">
                                     
                                 </th>
-                                <th scope="col" class="px-6 py-3">
+                                <th scope="col" className="px-6 py-3">
                                     Moose
                                 </th>
-                                <th scope="col" class="px-6 py-3">
+                                <th scope="col" className="px-6 py-3">
                                     Ticks
                                 </th>
                             </tr>
                         </thead>
                         <tbody>
-                            <tr class="border-b bg-brown-100">
-                                <th scope="row" class="px-6 py-4 font-medium text-white whitespace-nowrap">
+                            <tr className="border-b bg-brown-100">
+                                <th scope="row" className="px-6 py-4 font-medium text-white whitespace-nowrap">
                                     Intrinsic Growth (R)
                                 </th>
-                                <td class="px-6 py-4 font-medium text-white whitespace-nowrap">
+                                <td className="px-6 py-4 font-medium text-white whitespace-nowrap">
                                     0.001
                                 </td>
-                                <td class="px-6 py-4 font-medium text-white whitespace-nowrap">
+                                <td className="px-6 py-4 font-medium text-white whitespace-nowrap">
                                     0.5
                                 </td>
                             </tr>
 
-                            <tr class="border-b bg-brown-100">
-                                <th scope="row" class="px-6 py-4 font-medium text-white whitespace-nowrap">
+                            <tr className="border-b bg-brown-100">
+                                <th scope="row" className="px-6 py-4 font-medium text-white whitespace-nowrap">
                                     Alpha (&alpha;)
                                 </th>
-                                <td class="px-6 py-4 font-medium text-white whitespace-nowrap">
+                                <td className="px-6 py-4 font-medium text-white whitespace-nowrap">
                                     0.000027
                                 </td>
-                                <td class="px-6 py-4 font-medium text-white whitespace-nowrap">
+                                <td className="px-6 py-4 font-medium text-white whitespace-nowrap">
                                     15
                                 </td>
                             </tr>
 
-                            <tr class=" bg-brown-100">
-                                <th scope="row" class="px-6 py-4 font-medium text-white whitespace-nowrap">
+                            <tr className=" bg-brown-100">
+                                <th scope="row" className="px-6 py-4 font-medium text-white whitespace-nowrap">
                                     Carrying Capacity (K)
                                 </th>
-                                <td class="px-6 py-4 font-medium text-white whitespace-nowrap">
+                                <td className="px-6 py-4 font-medium text-white whitespace-nowrap">
                                     10,000
                                 </td>
-                                <td class="px-6 py-4 font-medium text-white whitespace-nowrap">
+                                <td className="px-6 py-4 font-medium text-white whitespace-nowrap">
                                     9,349,440,000
                                 </td>
                             </tr>

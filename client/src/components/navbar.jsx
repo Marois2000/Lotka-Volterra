@@ -4,12 +4,13 @@
 import React from "react";
 import { Link, animateScroll as scroll } from 'react-scroll';
 import { FaBars } from "react-icons/fa";
+import { Menu } from "./menu";
 
 export const Navbar = () => {
-    const linkStlye = "text-xl text-black font-montserrat font-semibold";
+    const linkStlye = "text-xl text-white font-montserrat font-semibold";
 
     return (
-        <div className="fixed justify-evenly items-center bg-brown-100 w-full top-0 gap-2 flex py-5 z-20">
+        <div className="fixed justify-evenly items-center bg-brown-100 w-full top-0 gap-2 flex py-5 z-20 rounded-b-xl">
             <div className="w-full justify-evenly items-center flex max-md:hidden">
                 <button>
                     <Link 
@@ -103,7 +104,7 @@ export const Navbar = () => {
             </div>
             
             <div className="w-full justify-end items-center flex px-5 md:hidden">
-                <FaBars className="text-white text-2xl" />
+                <Menu />
             </div>
             
         </div>

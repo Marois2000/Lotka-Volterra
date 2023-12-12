@@ -12,7 +12,7 @@ import { Navbar } from './components/navbar'
 function App() {
 
   return (
-    <div className='w-full flex justify-center items-center bg-neutral-300 flex-col overflow-hidden'>
+    <div className='w-full flex justify-center items-center bg-neutral-300 flex-col overflow-y-auto'>
       <Navbar />
       <Hero />
       <Introduction />
