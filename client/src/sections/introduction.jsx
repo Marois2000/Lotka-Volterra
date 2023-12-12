@@ -8,9 +8,8 @@ export const Introduction = () => {
     return (
         <div className="w-full bg-neutral-200">
             <h1 className="text-5xl text-brown-300 font-montserrat font-semibold text-center mt-20 mb-10">Introduction</h1>
-                <div className="flex justify-around items-start w-full mb-10" id="introduction">
-
-                    <div className="flex justify-center items-center flex-col w-[33%] ">
+                <div className="flex justify-around items-start w-full mb-10 max-md:flex-col-reverse gap-10" id="introduction">
+                    <div className="flex justify-center items-center flex-col w-full ">
                         <ParagraphHeader text="What Does this Answer?"/>
                         <div className="w-[30ch] text-justify gap-2 flex flex-col mt-5">
                             <h3 className="text-md text-black font-montserrat">This simulation answers the question of how long can our moose population survive on this current trajectory?</h3>
@@ -18,7 +17,7 @@ export const Introduction = () => {
                         </div>
                     </div>
 
-                    <div className="flex justify-center items-center flex-col w-[33%]">
+                    <div className="flex justify-center items-center flex-col w-full">
                         <ParagraphHeader text="How Will I Do This?" />
                         <div className="w-[30ch] text-justify gap-2 flex flex-col mt-5">
                             <h3 className="text-md text-black font-montserrat">I have created a model that weighs the tick population versus the moose population, i.e. more ticks means less moose.</h3>
@@ -28,7 +27,7 @@ export const Introduction = () => {
                         </div>
                     </div>
 
-                    <div className="flex justify-center items-center flex-col w-[33%]">
+                    <div className="flex justify-center items-center flex-col w-full">
                         <ParagraphHeader text="Why I Chose This?" />
                         <div className="w-[30ch] text-justify gap-2 flex flex-col mt-5">
                             <h3 className="text-md text-black font-montserrat">I wanted to connect my love of programming with something that's relevant to my home state of New Hampshire.</h3>
