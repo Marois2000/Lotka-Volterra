@@ -7,7 +7,7 @@ export const Conclusion = () => {
     return (
         <div className="w-full flex flex-col justify-center items-center bg-neutral-200 pb-10" id="conclusion">
             <h2 className="text-5xl text-brown-300 font-montserrat font-semibold text-center mt-10">Conclusion</h2>
-            <p className="w-[60ch] text-black font-montserrat mt-10 text-justify text-lg">
+            <p className="w-[60ch] text-black font-montserrat mt-10 text-justify text-lg max-md:w-full max-md:px-10">
                 From our findings we see that the moose population will die off in 30 years given our current trajectory. It is important 
                 to understand that this model is <strong><u>only</u></strong> focusing on moose population in competetion with the winter tick population. There may be 
                 many more factors that boost the moose populations that may lessen the affect the ticks have on the moose population. <br /><br />
