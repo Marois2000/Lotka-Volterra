@@ -27,11 +27,11 @@ export const Simulation = () => {
 
                     <div className="flex justify-center items-center gap-5">
                         <button className="bg-green-200 border-2 border-green-300 text-lg text-white rounded-md px-2 py-1 hover:bg-green-100 z-10 duration-300"> 
-                            <a href="../../builds/WindowsSimulation.zip" download="WindowsSimulation.zip">Windows Download</a>
+                            <a href="https://drive.google.com/uc?export=download&id=1cJg-uYGeSUdTB68qm0PkQP0wGxKB9Qov" download="Simulation.zip">Windows Download</a>
                         </button>
 
                         <button className="bg-green-200 border-2 border-green-300 text-lg text-white rounded-md px-2 py-1 hover:bg-green-100 z-10 duration-300"> 
-                            <a href="../../builds/MacSimulation.zip" download="MacSimulation.zip">MacOS Download</a>
+                            <a href="https://drive.google.com/uc?export=download&id=1t9Ld2HLdqwxtgU5X0fzR7S3nS9B9uGM1" download="MacBuild.app.zip">MacOS Download</a>
                         </button>
                     </div>
                     
