@@ -3,6 +3,8 @@
  */
 import React from "react";
 import hero from "../../img/Hero.png"
+import { Link, animateScroll as scroll } from 'react-scroll';
+
 
 export const Hero = () => {
     return (
@@ -20,7 +22,15 @@ export const Hero = () => {
                         <h2 className="text-black font-montserrat text-lg max-w-[35ch] mx-2 max-md:text-sm max-md:text-center">A 3D simulation of the model was built in Unity and Can be downloaded here.</h2>
                         
                         <div className="w-fit m-2 max-md:w-full max-md:justify-center flex">
-                            <button className="bg-green-200 border-2 border-green-300 text-lg text-white rounded-md px-2 py-1 hover:bg-green-100 z-10 duration-300">Download</button>
+                            <button className="bg-green-200 border-2 border-green-300 text-lg text-white rounded-md px-2 py-1 hover:bg-green-100 z-10 duration-300">
+                                <Link 
+                                    to="simulation" 
+                                    spy={true} 
+                                    smooth={true} 
+                                    offset={-50} 
+                                    duration={500} 
+                                >Download</Link>
+                            </button>
                         </div>
                     </div>
                 </div>

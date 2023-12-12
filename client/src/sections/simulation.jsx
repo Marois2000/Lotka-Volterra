@@ -1,5 +1,6 @@
 import React from "react";
 import { ParagraphHeader } from "../components/paragraphheader";
+import video from "../../img/MooseSimDemo.mp4";
 
 export const Simulation = () => {
     return (
@@ -31,20 +32,33 @@ export const Simulation = () => {
                 </div>
 
                 <div className="flex justify-center items-center gap-5 flex-col">
-                    <button className="bg-green-200 border-2 border-green-300 text-lg text-white rounded-md px-2 py-1 hover:bg-green-100 z-10 duration-300"> 
-                        <a href="https://drive.google.com/uc?export=download&id=1cJg-uYGeSUdTB68qm0PkQP0wGxKB9Qov" download="Simulation.zip">Windows Download</a>
-                    </button>
 
-                    <button className="bg-green-200 border-2 border-green-300 text-lg text-white rounded-md px-2 py-1 hover:bg-green-100 z-10 duration-300"> 
-                        <a href="https://drive.google.com/uc?export=download&id=1t9Ld2HLdqwxtgU5X0fzR7S3nS9B9uGM1" download="MacBuild.app.zip">MacOS Download</a>
-                    </button>
+                    <video width="400" controls autoPlay className="border-2 border-brown-200 rounded-md">
+                        <source src={video} type="video/mp4"  />
+                        Your browser does not support the video tag.
+                    </video>
+
+                    <div className="flex justify-center items-center gap-5">
+                        <button className="bg-green-200 border-2 border-green-300 text-lg text-white rounded-md px-2 py-1 hover:bg-green-100 z-10 duration-300"> 
+                            <a href="https://drive.google.com/uc?export=download&id=1cJg-uYGeSUdTB68qm0PkQP0wGxKB9Qov" download="Simulation.zip">Windows Download</a>
+                        </button>
+
+                        <button className="bg-green-200 border-2 border-green-300 text-lg text-white rounded-md px-2 py-1 hover:bg-green-100 z-10 duration-300"> 
+                            <a href="https://drive.google.com/uc?export=download&id=1t9Ld2HLdqwxtgU5X0fzR7S3nS9B9uGM1" download="MacBuild.app.zip">MacOS Download</a>
+                        </button>
+                    </div>
+                    
                 </div>
             </div>
 
-            <div className="flex justify-center items-center md:hidden">
+            <div className="flex justify-center items-center md:hidden flex-col">
                 <p className="w-full text-black font-montserrat m-3 text-center">
                     To try out the simulation head over to your nearest computer and download it there!
                 </p>
+                <video width="400" controls autoPlay className="border-2 border-brown-200 rounded-md">
+                    <source src={video} type="video/mp4"  />
+                    Your browser does not support the video tag.
+                </video>
             </div>
         </div>
     )
