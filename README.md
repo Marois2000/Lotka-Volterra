@@ -82,6 +82,6 @@ Considering climate change's impact on shorter winters, the model suggests that 
 2. Kusnetz, Nicholas. "Climate Change Is Killing New England’s Moose. Can Hunters Save Them?" Inside Climate News. [Link](https://insideclimatenews.org/news/29052017/climate-change-ticks-killing-new-england-moose-hunters/)
 3. State of New Hampshire Fish and Game. Moose. [Link](https://www.wildlife.nh.gov/wildlife-and-habitat/species-occurring-nh/moose#:~:text=The%20current%20New%20Hampshire%20moose
 
-##Acknowledgements
+## Acknowledgements
 
 Thank you to Dr. Nelson for teaching me the skills needed to create this model and guiding me along the way!
