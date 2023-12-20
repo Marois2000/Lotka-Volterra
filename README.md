@@ -81,6 +81,8 @@ Considering climate change's impact on shorter winters, the model suggests that 
 1. CK12-Foundation. CK12 Biology Flexbook 2.0. [Link](https://flexbooks.ck12.org/cbook/ck-12-biology-flexbook-2.0/r135/section/6.14/primary/lesson/competition-bio/)
 2. Kusnetz, Nicholas. "Climate Change Is Killing New England’s Moose. Can Hunters Save Them?" Inside Climate News. [Link](https://insideclimatenews.org/news/29052017/climate-change-ticks-killing-new-england-moose-hunters/)
 3. State of New Hampshire Fish and Game. Moose. [Link](https://www.wildlife.nh.gov/wildlife-and-habitat/species-occurring-nh/moose#:~:text=The%20current%20New%20Hampshire%20moose
+4. UNH Today. "Tracking New Hampshire’s Moose Population Using Drones and Wildlife Cameras." [Link](https://www.unh.edu/unhtoday/2023/02/population-surveying-methods-new-hampshire-moose)
+5. ScienceDirect Topics. Lotka-Volterra Model - an Overview. [Link](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/lotka-volterra-model#:~:text=The%20Lotka%E2%80%93Volterra%20model%20explores,not%20explicitly%20stated%20or%20explored)
 
 ## Acknowledgements
 
